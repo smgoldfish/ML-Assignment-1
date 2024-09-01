@@ -1,9 +1,9 @@
 # Machine Learning Project
 
 #### Team Name: Alpha (07)
-202418005 Anandita Saolapurkar
-2024180015 Deepanshi Acharya
-20241800xx Jay Deshpande
+202418005 Anandita Saolapurkar,
+2024180015 Deepanshi Acharya,
+20241800xx Jay Deshpande,
 20241800xx Chandan Surname
 
 

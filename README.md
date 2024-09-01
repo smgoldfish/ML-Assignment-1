@@ -1,4 +1,5 @@
 # Machine Learning Project
+
 </br>
 ## Team : Alpha (07)
 202418005 Anandita Saolapurkar</br>
@@ -6,6 +7,7 @@
 202418021 Jay Deshpande</br>
 202418043 Chandan Pandit
 </br>
+
 ## Project Overview
 In this project, we aim to build a regression model to predict  CO<sub>2</sub> emissions from vehicles based on various attributes. A dataset which provides detailed information on vehicle characteristics like engine size, cylinder count, and fuel consumption was sourced from Kaggle. An effort has been made to explore the relationship between these attributes and the CO<sub>2</sub> emissions.
 
@@ -14,6 +16,7 @@ To achieve this, we implemented four regression models: Ridge, Random Forest, De
 #### Dataset Source
 https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
 </br>
+
 ## Psuedocode for chosen model
 Among the considered models, Random Forest regressor emerged as the top choice based on the previously mentioned evaluation metrics. Following is the psuedocode for the same:
 

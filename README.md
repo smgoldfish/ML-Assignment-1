@@ -16,6 +16,7 @@ To achieve this, we implemented four regression models: Ridge, Random Forest, De
 https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
 
 
+
 ## Psuedocode for chosen model
 Among the considered models, Random Forest regressor emerged as the top choice based on the previously mentioned evaluation metrics. Following is the psuedocode for the same:
 

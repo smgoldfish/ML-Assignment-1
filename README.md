@@ -1,6 +1,5 @@
 # Machine Learning Project
 
-</br>
 ## Team : Alpha (07)
 202418005 Anandita Saolapurkar</br>
 202418015 Deepanshi Acharya</br>

@@ -13,8 +13,7 @@ In this project, we aim to build a regression model to predict  CO<sub>2</sub> e
 To achieve this, we implemented four regression models: Ridge, Random Forest, Decision Tree and Linear Regression. Each model is trained to predict the CO<sub>2</sub> emissions, and their performance is evaluated using multiple metrics like MAPE, MSE, MAE and R<sup>2</sup>.
 
 #### Dataset Source
-https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
-</br>
+https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data </br>
 
 ## Psuedocode for chosen model
 Among the considered models, Random Forest regressor emerged as the top choice based on the previously mentioned evaluation metrics. Following is the psuedocode for the same:

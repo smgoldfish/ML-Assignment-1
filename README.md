@@ -8,12 +8,27 @@
 </br>
 
 ## Project Overview
-In this project, we aim to build a regression model to predict  CO<sub>2</sub> emissions from vehicles based on various attributes. A dataset which provides detailed information on vehicle characteristics like engine size, cylinder count, and fuel consumption was sourced from Kaggle. An effort has been made to explore the relationship between these attributes and the CO<sub>2</sub> emissions.
+This project aims to develop a regression model capable of accurately predicting flight prices. The dataset, sourced from Kaggle, contains information on various flight attributes, including:
 
-To achieve this, we implemented four regression models: Ridge, Random Forest, Decision Tree and Linear Regression. Each model is trained to predict the CO<sub>2</sub> emissions, and their performance is evaluated using multiple metrics like MAPE, MSE, MAE and R<sup>2</sup>.
+- **Airline:** The name of the airline.
+- **Flight:** The flight number.
+- **Source_city:** The city of departure.
+- **Departure:** The departure time.
+- **Stops:** The number of stops.
+- **Arrival:** The arrival time.
+- **Destination_city:** The city of arrival.
+- **Class:** The class of travel.
+- **Duration:** The flight duration.
+- **Days_left:** The number of days remaining before the flight.
+- **Price:** The price of the flight.
+
+To understand the data and identify potential relationships between variables, we conducted exploratory data analysis (EDA). This involved visualizing the data through various plots, such as bar graph, scatter plot and line graph. Additionally, we calculated correlation coefficients and used the Variance Inflation Factor (VIF) to assess multicollinearity among the features.
+
+After exploring the data, we experimented with different regression models, including linear regression, random forest, ridge regression, and decision trees. These models were evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Mean Absolute Percentage Error (MAPE), and R-squared. Based on the evaluation results, we selected the random forest regressor as the most effective model for predicting flight prices.
 
 #### Dataset Source
-https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data </br>
+https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data 
+</br></br>
 
 ## Psuedocode for chosen model
 Among the considered models, Random Forest regressor emerged as the top choice based on the previously mentioned evaluation metrics. Following is the psuedocode for the same:

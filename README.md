@@ -17,7 +17,22 @@ https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data
 
 
 ## Psuedocode for chosen model
+Among the considered models, Random Forest regressor emerged as the top choice based on the previously mentioned evaluation metrics. Following is the psuedocode for the same:
 
 ```
+1. Initialize the Random Forest Regressor
+   - Set the number of trees (n_estimators)
+   - Set other hyperparameters (e.g., max_depth, min_samples_split)
 
+2. For each tree in the forest:
+   a. Sample with replacement from the training data to create a bootstrap sample
+   b. Train a decision tree regressor on the bootstrap sample
+      - At each node, randomly select a subset of features
+      - Split the node based on the best feature from the subset
+      - Repeat until the stopping criteria are met (e.g., max_depth, min_samples_split)
+
+3. To make a prediction for a new instance:
+   a. Pass the instance through each tree in the forest
+   b. Collect the predictions from all trees
+   c. Average the predictions to get the final output
 ```

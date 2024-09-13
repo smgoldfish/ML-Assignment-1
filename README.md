@@ -50,3 +50,12 @@ Among the considered models, Random Forest regressor emerged as the top choice b
    b. Collect the predictions from all trees
    c. Average the predictions to get the final output
 ```
+
+</br></br>
+## Practical Applications
+A few real world cases where this model can be deployed are:</br>
+
+1. **Airlines:** To optimize pricing strategies, maximize revenue, and better anticipate demand.
+2. **Corporations:** To develop effective travel policies, allocate flight allowances, and control travel costs.
+3. **Travel Agencies:** To offer more accurate pricing and create personalized travel packages.
+4. **Insurance Companies:** To underwrite travel insurance policies more effectively, assess risk accurately, and provide tailored coverage.

@@ -24,7 +24,7 @@ This project aims to develop a regression model capable of accurately predicting
 
 To understand the data and identify potential relationships between variables, we conducted exploratory data analysis (EDA). This involved visualizing the data through various plots, such as bar graph, scatter plot and line graph. Additionally, we calculated correlation coefficients and used the Variance Inflation Factor (VIF) to assess multicollinearity among the features.
 
-After exploring the data, we experimented with different regression models, including linear regression, random forest, ridge regression, and decision trees. These models were evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Mean Absolute Percentage Error (MAPE), and R-squared. Based on the evaluation results, we selected the random forest regressor as the most effective model for predicting flight prices.
+After exploring the data, we experimented with different regression models, including linear regression, random forest and knn regression. These models were evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Mean Absolute Percentage Error (MAPE), and R-squared. Based on the evaluation results, we selected the random forest regressor as the most effective model for predicting flight prices.
 
 #### Dataset Source
 https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data 

@@ -52,6 +52,7 @@ Among the considered models, Random Forest regressor emerged as the top choice b
 ```
 
 </br>
+
 ## Practical Applications
 A few real world cases where this model can be deployed are:</br>
 
@@ -59,3 +60,18 @@ A few real world cases where this model can be deployed are:</br>
 2. **Corporations:** To develop effective travel policies, allocate flight allowances, and control travel costs.
 3. **Travel Agencies:** To offer more accurate pricing and create personalized travel packages.
 4. **Insurance Companies:** To underwrite travel insurance policies more effectively, assess risk accurately, and provide tailored coverage.
+
+</br>
+
+## Conclusion
+Our project successfully developed a Random Forest regression model capable of accurately predicting flight prices. The model achieved an R-squared score of 97.02%, indicating that it can explain a significant portion of the variance in flight prices. This performance surpasses the results obtained from the other tested models, linear regression and KNN.
+
+The accompanying table demonstrates the model's effectiveness in predicting flight prices across a range of scenarios. The close alignment between actual and predicted values underscores the model's accuracy and reliability.
+
+| Actual | Predicted |
+|-------|-------|
+| 4721 | 4703.828902 |
+| 3999 | 4034.865126 |
+| 64173 | 62483.070938 |
+| 5873 | 4596.781099 |
+| 7212 | 6631.559051 |

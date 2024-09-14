@@ -66,8 +66,7 @@ A few real world cases where this model can be deployed are:</br>
 ## Conclusion
 Our project successfully developed a Random Forest regression model capable of accurately predicting flight prices. The model achieved an R-squared score of 97.02%, indicating that it can explain a significant portion of the variance in flight prices. This performance surpasses the results obtained from the other tested models, linear regression and KNN.
 
-The accompanying table demonstrates the model's effectiveness in predicting flight prices across a range of scenarios. The close alignment between actual and predicted values underscores the model's accuracy and reliability.
-
+The accompanying table demonstrates the model's effectiveness in predicting flight prices across a range of scenarios:
 | Actual | Predicted |
 |-------|-------|
 | 4721 | 4703.828902 |

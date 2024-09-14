@@ -36,14 +36,14 @@ Among the considered models, Random Forest regressor emerged as the top choice b
 ```
 1. Initialize the Random Forest Regressor
    - Set the number of trees (n_estimators)
-   - Set other hyperparameters (e.g., max_depth, min_samples_split)
+   - Set other hyperparameters (depth, min_samples_split, min_samples_leaf)
 
 2. For each tree in the forest:
    a. Sample with replacement from the training data to create a bootstrap sample
    b. Train a decision tree regressor on the bootstrap sample
       - At each node, randomly select a subset of features
       - Split the node based on the best feature from the subset
-      - Repeat until the stopping criteria are met (e.g., max_depth, min_samples_split)
+      - Repeat until the stopping criteria are met (depth, min_samples_split, min_samples_leaf)
 
 3. To make a prediction for a new instance:
    a. Pass the instance through each tree in the forest
@@ -51,7 +51,7 @@ Among the considered models, Random Forest regressor emerged as the top choice b
    c. Average the predictions to get the final output
 ```
 
-</br></br>
+</br>
 ## Practical Applications
 A few real world cases where this model can be deployed are:</br>
 
